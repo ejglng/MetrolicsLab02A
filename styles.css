@@ -60,4 +60,9 @@
   --container-max-width: 1200px;
   --container-padding: var(--space-sm);
   --grid-gap: var(--space-md);
+
+    /* TRANSITIONS */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 250ms ease-in-out;
+  --transition-slow: 350ms ease-in-out;
 }
