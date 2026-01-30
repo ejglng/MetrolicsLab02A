@@ -8,4 +8,19 @@
   --color-primary-purple: #9b59b6;
   --color-primary-pink: #fd79a8;
   --color-primary-cyan: #00cec9;
+  
+  /* NEUTRALS */
+  --color-neutral-darkest: #2c3e50;
+  --color-neutral-dark: #34495e;
+  --color-neutral-medium: #7f8c8d;
+  --color-neutral-light: #bdc3c7;
+  --color-neutral-lighter: #ecf0f1;
+  --color-neutral-lightest: #ffffff;
+  
+  /* SEMANTIC COLORS */
+  --color-text-primary: var(--color-neutral-darkest);
+  --color-text-secondary: var(--color-neutral-dark);
+  --color-text-muted: var(--color-neutral-medium);
+  --color-background: var(--color-neutral-lightest);
+  --color-background-alt: var(--color-neutral-lighter);
 }
