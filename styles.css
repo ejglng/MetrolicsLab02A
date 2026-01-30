@@ -55,4 +55,9 @@
   --space-xl: 48px;
   --space-2xl: 64px;
   --space-3xl: 96px;
+
+    /* LAYOUT */
+  --container-max-width: 1200px;
+  --container-padding: var(--space-sm);
+  --grid-gap: var(--space-md);
 }
