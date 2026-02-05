@@ -136,3 +136,14 @@
   p {
     margin-bottom: var(--space-sm);
   }
+
+    /* LAYOUT */
+  .page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
+
+  .site-main {
+    flex: 1;
+  }
