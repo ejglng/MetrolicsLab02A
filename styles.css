@@ -75,10 +75,8 @@
   --shadow-lg: 0 8px 16px rgb(0, 0, 0);
 }
 
-    /* Base Styles/Reset */
-  *,
-  *::before,
-  *::after {
+    /* BASE STYLES/RESET */
+  *,*::before,*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -111,10 +109,30 @@
     transition: color var(--transition-fast);
   }
 
-
-  button,
-  input,
-  textarea {
+  button,input,textarea {
     font-family: inherit;
     font-size: inherit;
+  }
+
+    /* TYPOGRAPHY */
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    margin-bottom: var(--space-sm);
+  }
+
+  h1 {
+    font-size: var(--font-size-2xl);
+  }
+
+  h2 {
+    font-size: var(--font-size-xl);
+  }
+
+  h3 {
+    font-size: var(--font-size-lg);
+  }
+
+  p {
+    margin-bottom: var(--space-sm);
   }
