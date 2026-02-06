@@ -264,3 +264,34 @@
     border-radius: var(--border-radius-md);
     box-shadow: var(--shadow-lg);
   }
+
+  /* INTRO SECTION */
+  .intro {
+  padding: var(--space-2xl) var(--container-padding);
+  text-align: center;
+  background-color: var(--color-neutral-lightest);
+  }
+
+  .intro__container {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+  }
+
+  .intro__heading {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-md);
+    font-weight: var(--font-weight-regular);
+  }
+
+  .intro__highlight {
+    color: var(--color-primary-blue);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .intro__text {
+    font-size: var(--font-size-md);
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+  }
