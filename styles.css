@@ -386,6 +386,14 @@
     line-height: var(--line-height-relaxed);
   }
 
+  /* BLOG SECTION */
+  .blog {
+  padding: var(--space-2xl) var(--container-padding);
+  background-color: var(--color-neutral-lightest);
+  min-height: 200px;
+  }
+
+
   /* PORTFOLIO SECTION */
   .portfolio {
   padding: var(--space-2xl) var(--container-padding);
